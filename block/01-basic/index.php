@@ -58,6 +58,6 @@ function gb_block_01_basic_block_assets() {
 		'gb-block-01-basic-frontend', // Handle.
 		plugins_url( 'style.css', __FILE__ ), // Block frontend CSS.
 		array( 'wp-blocks' ), // Dependency to include the CSS after it.
-		filemtime( plugin_dir_path( __FILE__ ) . 'editor.css' ) // filemtime — Gets file modification time.
+		filemtime( plugin_dir_path( __FILE__ ) . 'style.css' ) // filemtime — Gets file modification time.
 	);
 } // End fucntion gb_block_01_basic_block_assets().
